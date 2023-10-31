@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=":_!bY7f.b(.c3WMVN2n!" x="0" y="0"><statement name="HANDLER"><block type="radio_set_transmit_power" id="GLny@u%AbI}-~aKBp}qz"><value name="power"><shadow type="math_number_minmax" id="AQ}JmSA7H[:LsN8QBVOW"><mutation min="0" max="7" label="Power" precision="0"></mutation><field name="SLIDER">7</field></shadow></value><next><block type="radio_set_group" id="(RL=HaOu2VH;vwiN8awV"><value name="ID"><shadow type="math_number_minmax" id="4^BUjpv6!?eUaAm?ma3o"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">2</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="WpU!s[*jpeTw7onSclR$" x="395" y="-3"><statement name="HANDLER"><block type="radio_datagram_send_string" id="Dw^pIc`f[O%PZOfp~S90"><value name="msg"><shadow type="text" id="`oeDOeLO1yrJjYDj3G.3"><field name="TEXT">RZXPSNWZXPSN</field></shadow></value><next><block type="device_show_leds" id="an$=rY=%`WHUqgnrN?/x"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Cl0h[^^(t893D6Egq1F1"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="d%ktm|#%$-:Fu*3+)u)6"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="OK1oOq2GC0:{3r4+NCS7"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="~_uiJd9K)%?l~B]gT9._"><value name="pause"><shadow type="timePicker" id="H6x|z_8imLQKj+,amk5."><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
